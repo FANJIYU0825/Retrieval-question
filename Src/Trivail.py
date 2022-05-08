@@ -1,6 +1,6 @@
 from pyserini.search.lucene import LuceneSearcher
 from pyserini.index import IndexReader
-
+import json
 #需要預先跑完Sh-file
 searcher = LuceneSearcher('Index/Wiki_Chinese')
 index_reader = IndexReader('Index/Wiki_Chinese')
