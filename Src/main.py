@@ -1,5 +1,4 @@
-from .Src import Crewing
-from .Src import TrivailProcess
+import Src.Crewing as Cr
 import pandas as pd
 import json
 import argparse  
@@ -13,9 +12,9 @@ args = parser.parse_args()
 if __name__ == '__main__':
     searchnum=input("Search Number of :")
     searchnum = int(searchnum)
-    alllst=Crewing.finout(searchnum)
-    allinone=Crewing.url_finder(alllst,searchnum)
-    jsonIT=Crewing.Qacrewing(allinone,searchnum)
+    alllst=Cr.finout(searchnum)
+    allinone=Cr.url_finder(alllst,searchnum)
+    jsonIT=Cr.Qacrewing(allinone,searchnum)
     
     #pandas 寫法
     df_all=pd.DataFrame(jsonIT)
