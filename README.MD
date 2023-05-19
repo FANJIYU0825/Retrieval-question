@@ -1,4 +1,4 @@
-# You may open ipython sample 
+
 #  Introduce 
 ## First Basic Model
 1. How we genarate the data we .Get the source data
