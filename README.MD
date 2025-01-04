@@ -11,7 +11,7 @@ These key points' scores are composed of segment scores (seg score) and span sco
 1. model
 ![img](./fig/model.jpg)
 # Score accurate:
-Using score.max() in Retriever text may result in low scores, leading to poorly generated questions because the original information is not good.
+Using `score.max()` in Retriever text may result in low scores, leading to poorly generated questions because the original information is not good.
 Even if we enhance the answers, the results may not be very good.
 When questions contain specific information, it helps in finding the correct passages, thus generating accurate answers.
 If the questions lack specific and detailed information, finding the correct answers becomes more difficult.
