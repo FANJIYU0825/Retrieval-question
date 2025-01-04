@@ -7,7 +7,7 @@
 ## Question Answering
 - Retrieval systems only find articles with high similarity from the database.
 - By fine-tuning with NLP, we can extract key points from these high-similarity articles.
-- These key points' scores are composed of segment scores (seg score) and span scores (span score). e build the link or the graph of let us get the good result in the QA
+- These key points' scores are composed of segment scores (seg score) and span scores (span score).
 1. model
 ![img](./fig/model.jpg)
 # Score accurate:
