@@ -1,13 +1,13 @@
 
 #  Introduce 
 ## Open-Domain
-Refers to a task or system setting in natural language processing (NLP) and information retrieval.
-The system needs to handle questions without specific range or domain restrictions.
-The system should be able to understand and answer questions from various topics or domains, not just limited to a specific field.
+- Refers to a task or system setting in natural language processing (NLP) and information retrieval.
+- The system needs to handle questions without specific range or domain restrictions.
+- The system should be able to understand and answer questions from various topics or domains, not just limited to a specific field.
 ## Question Answering
-Retrieval systems only find articles with high similarity from the database.
-By fine-tuning with NLP, we can extract key points from these high-similarity articles.
-These key points' scores are composed of segment scores (seg score) and span scores (span score). e build the link or the graph of let us get the good result in the QA
+- Retrieval systems only find articles with high similarity from the database.
+- By fine-tuning with NLP, we can extract key points from these high-similarity articles.
+- These key points' scores are composed of segment scores (seg score) and span scores (span score). e build the link or the graph of let us get the good result in the QA
 1. model
 ![img](./fig/model.jpg)
 # Score accurate:
